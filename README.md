@@ -15,6 +15,9 @@ Testing out the different variable declarations and initializations!
 
 Let's see how functions work, aye?
 
-    $ go run functions.go
+    $ go run funcs.go
     1 + 2 = 3
     1 + 2 + 3 = 6
+    3
+    7
+    7
