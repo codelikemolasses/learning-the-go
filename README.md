@@ -56,3 +56,19 @@ Toying with JSON a bit:
     {"apple":5,"lettuce":7}
 
 This one was a real learning experience! I found out that a multi-object (such as `&response1{Page: 1, Fruits: []string{"..."}}` can't have the ending `}` on a new line... which is super annoying. Also, initializing a `byte` array uses parentheses for its value opposed to curly braces -- but maybe that's because it's not really a collection of multiple different things but just each byte of a single "string" represented as an array (i.e. `char foo[4] = "bar";` in C...).
+
+## Loops!
+
+`for` loops are the best type of loops!
+
+    $ go run looping.go
+    1
+    2
+    3
+    7
+    8
+    9
+    loop
+    1
+    3
+    5
